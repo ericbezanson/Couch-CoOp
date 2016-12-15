@@ -1,0 +1,14 @@
+body {
+    background-color: mediumpurple;
+}
+#logo {
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    font-size: 72px;
+    font-family: 'Orbitron', Times, serif;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+.streamThumb {
+    margin: 25px;
+}
