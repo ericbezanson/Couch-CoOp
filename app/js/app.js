@@ -7,8 +7,8 @@ app.config(function($routeProvider){
     templateUrl: "js/views/home.html"
   })
   .when('/stream',{
-    controller: "",
-    templateUrl: ""
+    controller: "StreamController",
+    templateUrl: "js/views/streamroom.html"
   })
   .otherwise({
     redirectTo: "/"
