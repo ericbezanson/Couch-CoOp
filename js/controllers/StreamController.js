@@ -1,7 +1,7 @@
 app.controller('StreamController', ['$scope', '$routeParams','streams', function($scope, $routeParams, streams) {
   // Your code here
-  home.success(function(data){
-    $scope.streams = data[$routeParams.homeId];
+  streams.success(function(data){
+    $scope.streams = data[$routeParams.streamsId];
   });
 
   // Using this property to create the URL in line 9 of views/stream.html
