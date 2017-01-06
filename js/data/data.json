@@ -1,0 +1,53 @@
+[
+            {   "id": 1,
+                "name": "Summit1G",
+                "stream": "http://player.twitch.tv/?channel=summit1g",
+                "image": "img/twitchLogo.png"
+            },
+            {   "id": 2,
+                "name": "Gold Glove",
+                "stream": "http://player.twitch.tv/?channel=goldglove",
+                "image": "img/twitchLogo.png"
+            },
+            {   "id": 3,
+                "name": "LIRIK",
+                "stream": "http://player.twitch.tv/?channel=lirik",
+                "image": "img/twitchLogo.png"
+            },
+            {
+                "id": 4,
+                "name": "Soda Poppin",
+                "stream": "http://player.twitch.tv/?channel=sodapoppin",
+                "image": "img/twitchLogo.png"
+            },
+            {
+                "id": 5,
+                "name": "King Gothalion",
+                "stream": "http://player.twitch.tv/?channel=kinggothalion",
+                "image": "img/twitchLogo.png"
+            },
+            {
+                "id": 6,
+                "name": "Winter Gaming",
+                "stream": "http://player.twitch.tv/?channel=wintergaming",
+                "image": "img/twitchLogo.png"
+            },
+            {
+                "id": 7,
+                "name": "Mighty Mouse UFC 125",
+                "stream": "http://player.twitch.tv/?channel=mightymouseufc125",
+                "image": "img/twitchLogo.png"
+            },
+            {
+                "id": 8,
+                "name": "Bajheera",
+                "stream": "http://player.twitch.tv/?channel=bajheera",
+                "image": "img/twitchLogo.png"
+            },
+            {
+                "id": 9,
+                "name": "Swifty",
+                "stream": "http://player.twitch.tv/?channel=swifty",
+                "image": "img/twitchLogo.png"
+            }
+        ]

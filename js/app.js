@@ -2,21 +2,21 @@ var app = angular.module("Couchcoop", ['ngRoute']);
 
 app.config(function($routeProvider){
   $routeProvider 
-  .when('/', {
+  .when('/streams', {
     controller: "HomeController",
     templateUrl: "js/views/home.html"
   })
-  .when('/stream',{
-    controller: "",
-    templateUrl: ""
+  .when('/streams/:streamId',{
+    controller: "StreamController",
+    templateUrl: "js/views/stream.html"
   })
   .otherwise({
-    redirectTo: "/"
+    redirectTo: "/streams"
   });
   
 });
 
-var socket = io();
+/** var socket = io();
 
         $('form').submit(function(){
             socket.emit('chat message', $('#m').val());
@@ -27,3 +27,4 @@ var socket = io();
         socket.on('chat message', function(msg){
             $('#messages').append($('<li>').text(msg));
 })
+**/

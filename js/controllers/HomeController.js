@@ -1,3 +1,5 @@
-app.controller("HomeController", ['$scope', function($scope){
-
+app.controller('HomeController', ['$scope', 'streams', function($scope, streams) {
+	streams.success(function(data){
+    $scope.myStreams = data;
+  });
 }]);
