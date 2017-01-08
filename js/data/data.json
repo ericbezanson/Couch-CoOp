@@ -2,52 +2,46 @@
             {   "id": 1,
                 "name": "Summit1G",
                 "stream": "http://player.twitch.tv/?channel=summit1g",
-                "image": "img/twitchLogo.png"
+                "image": "img/summit1gLogo.jpg"
             },
             {   "id": 2,
                 "name": "GoldGlove",
                 "stream": "http://player.twitch.tv/?channel=goldglove",
-                "image": "img/twitchLogo.png"
+                "image": "img/goldGloveLogo.jpg"
             },
             {   "id": 3,
                 "name": "LIRIK",
                 "stream": "http://player.twitch.tv/?channel=lirik",
-                "image": "img/twitchLogo.png"
+                "image": "img/lirikLogo.jpg"
             },
             {
                 "id": 4,
                 "name": "SodaPoppin",
                 "stream": "http://player.twitch.tv/?channel=sodapoppin",
-                "image": "img/twitchLogo.png"
+                "image": "img/sodaPoppinLogo.jpg"
             },
             {
                 "id": 5,
                 "name": "KingGothalion",
                 "stream": "http://player.twitch.tv/?channel=kinggothalion",
-                "image": "img/twitchLogo.png"
+                "image": "img/kinggothalionLogo.jpg"
             },
             {
                 "id": 6,
                 "name": "WinterGaming",
                 "stream": "http://player.twitch.tv/?channel=wintergaming",
-                "image": "img/twitchLogo.png"
+                "image": "img/wintergamingLogo.jpeg"
             },
             {
                 "id": 7,
                 "name": "MightyMouseUFC125",
                 "stream": "http://player.twitch.tv/?channel=mightymouseufc125",
-                "image": "img/twitchLogo.png"
+                "image": "img/mightymouseufc125.jpg"
             },
             {
                 "id": 8,
                 "name": "Bajheera",
                 "stream": "http://player.twitch.tv/?channel=bajheera",
-                "image": "img/twitchLogo.png"
-            },
-            {
-                "id": 9,
-                "name": "Swifty",
-                "stream": "http://player.twitch.tv/?channel=swifty",
-                "image": "img/twitchLogo.png"
+                "image": "img/bahjeeraLogo.jpg"
             }
         ]

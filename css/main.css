@@ -34,4 +34,11 @@ form button {
 }
 .streamThumb {
     margin: 25px;
+    height: 200px;
+    width: 250px;
+}
+.title {
+    color: white;
+    text-align: center;
+    margin: 0;
 }
