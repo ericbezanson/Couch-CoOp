@@ -1,6 +1,5 @@
-app.controller("HomeController", ['$scope','$location', function($scope,$location){
-
-    $scope.func = function(){
-        $location.url('/stream');
-    }
+app.controller('HomeController', ['$scope', 'streams', function($scope, streams) {
+	streams.success(function(data){
+    $scope.myStreams = data;
+  });
 }]);
