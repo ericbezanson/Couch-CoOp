@@ -1,47 +1,63 @@
 [
             {   "id": 1,
                 "name": "Summit1G",
-                "stream": "https://player.twitch.tv/?channel=summit1g",
-                "image": "img/summit1gLogo.jpg"
+                "stream": "http://player.twitch.tv/?channel=summit1g",
+                "image": "img/summit1gLogo.jpg",
+                "twitch": "https://www.twitch.tv/summit1g",
+                "twitter": "https://twitter.com/summit1g"
             },
             {   "id": 2,
                 "name": "GoldGlove",
-                "stream": "https://player.twitch.tv/?channel=goldglove",
-                "image": "img/goldGloveLogo.jpg"
+                "stream": "http://player.twitch.tv/?channel=goldglove",
+                "image": "img/goldGloveLogo.jpg",
+                "twitch": "https://www.twitch.tv/goldglove",
+                "twitter": "https://twitter.com/GoldGloveTV"
             },
             {   "id": 3,
                 "name": "LIRIK",
-                "stream": "https://player.twitch.tv/?channel=lirik",
-                "image": "img/lirikLogo.jpg"
+                "stream": "http://player.twitch.tv/?channel=lirik",
+                "image": "img/lirikLogo.jpg",
+                "twitch": "https://www.twitch.tv/lirik",
+                "twitter": "https://twitter.com/lirik"
             },
             {
                 "id": 4,
                 "name": "SodaPoppin",
-                "stream": "https://player.twitch.tv/?channel=sodapoppin",
-                "image": "img/sodaPoppinLogo.jpg"
+                "stream": "http://player.twitch.tv/?channel=sodapoppin",
+                "image": "img/sodaPoppinLogo.jpg",
+                "twitch": "https://www.twitch.tv/sodapoppin",
+                "twitter": "https://twitter.com/Sodapoppintv"
             },
             {
                 "id": 5,
                 "name": "KingGothalion",
-                "stream": "https://player.twitch.tv/?channel=kinggothalion",
-                "image": "img/kinggothalionLogo.jpg"
+                "stream": "http://player.twitch.tv/?channel=kinggothalion",
+                "image": "img/kinggothalionLogo.jpg",
+                "twitch": "https://www.twitch.tv/kinggothalion",
+                "twitter": "https://twitter.com/gothalion"
             },
             {
                 "id": 6,
                 "name": "WinterGaming",
-                "stream": "https://player.twitch.tv/?channel=wintergaming",
-                "image": "img/wintergamingLogo.jpeg"
+                "stream": "http://player.twitch.tv/?channel=wintergaming",
+                "image": "img/wintergamingLogo.jpeg",
+                "twitch": "https://www.twitch.tv/wintergaming",
+                "twitter": "https://twitter.com/starcraftwinter"
             },
             {
                 "id": 7,
                 "name": "MightyMouseUFC125",
-                "stream": "https://player.twitch.tv/?channel=mightymouseufc125",
-                "image": "img/mightymouseufc125.jpg"
+                "stream": "http://player.twitch.tv/?channel=mightymouseufc125",
+                "image": "img/mightymouseufc125.jpg",
+                "twitch": "https://www.twitch.tv/mightymouseufc125",
+                "twitter": "https://twitter.com/MightyMouseUFC"
             },
             {
                 "id": 8,
                 "name": "Bajheera",
-                "stream": "https://player.twitch.tv/?channel=bajheera",
-                "image": "img/bahjeeraLogo.jpg"
+                "stream": "http://player.twitch.tv/?channel=bajheera",
+                "image": "img/bahjeeraLogo.jpg",
+                "twitch": "https://www.twitch.tv/bajheera",
+                "twitter": "https://twitter.com/bajheerawow"
             }
         ]

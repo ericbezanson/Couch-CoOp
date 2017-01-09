@@ -44,3 +44,31 @@ form button {
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     padding: 10px 0px;
 }
+
+#chat {
+    width: 350px;
+    display: inline;
+    float: right;   
+}
+.streamHead {
+    display: inline;
+}
+.socialLogo {
+    height: 75px;
+    width: 75px;
+    float: right;
+    padding: 5px 10px;
+    margin-right: 25px;
+}
+#streamTitle {
+    display: inline-block;
+}
+.dev {
+    color: white;
+    margin-top: 20px;
+}
+
+.footer h4 {
+    margin-top: 550px;
+}
+
