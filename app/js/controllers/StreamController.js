@@ -15,7 +15,6 @@ app.controller('StreamController',
     });
 
     socket.on('send:message', function(data){
-        console.log("Client receive: " + data);
         $scope.messages.push(data);
     });
     
