@@ -33,5 +33,20 @@ form button {
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 .streamThumb {
-    margin: 25px;
+    height: 200px;
+    width: 250px;
+}
+.title {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-family: 'Orbitron', Times, serif;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    padding: 10px 0px;
+}
+
+#chat {
+    width: 350px;
+    display: inline;
+    float: right;   
 }
