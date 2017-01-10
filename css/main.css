@@ -1,3 +1,8 @@
+
+/*****************
+    MAIN
+*****************/
+
 * { 
     margin: 0; padding: 0; box-sizing: border-box; 
 }
@@ -45,13 +50,12 @@ form button {
     padding: 10px 0px;
 }
 
-#chat {
-    width: 350px;
-    display: inline;
-    float: right;   
-}
-.streamHead {
-    display: inline;
+/*****************
+    STREAM
+****************/
+
+#streamTitle {
+    display: inline-block;
 }
 .socialLogo {
     height: 75px;
@@ -60,9 +64,18 @@ form button {
     padding: 5px 10px;
     margin-right: 25px;
 }
-#streamTitle {
-    display: inline-block;
+#chat {
+    width: 350px;
+    display: inline;
+    float: right;   
 }
+.streamHead {
+    display: inline;
+}
+
+/****************
+    FOOTER
+****************/
 .dev {
     color: white;
     margin-top: 20px;
@@ -71,4 +84,3 @@ form button {
 .footer h4 {
     margin-top: 550px;
 }
-

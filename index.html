@@ -13,26 +13,25 @@
         </div>
       </div>
         <div ng-view></div>
-        <ul id="messages"></ul>
-        <form action="">
-          <input id="m" autocomplete="off" /><button>Send</button>
-        </form>
     </div>
   </body>
   <footer>
     <!-- Modules -->
-      <!-- <script src="/socket.io/socket.io.js"></script>  Provide Socket.io -->
+      <!-- <script src="/socket.io/socket.io.js"></script>  Provide Socket.io  COMMENTED OUT AS NOT CURRENTLY FUNCTIONAL --> 
       <script src="https://code.jquery.com/jquery-1.11.1.js"></script> <!-- Provide jQuery -->
       <script src="js/vendor/angular.min.js"></script> <!--Provide Angular -->
       <script src="https://code.angularjs.org/1.2.28/angular-route.min.js"></script> <!-- Provide ngRoute -->
       <script src="js/app.js"></script> <!-- Main Js file -->
+
     <!-- Controllers -->
       <script src="js/controllers/HomeController.js"></script>  <!--Set Controller for main page -->
       <script src="js/controllers/StreamController.js"></script>
+
     <!-- Directives -->
    
     <!-- Filters -->
     <script src="js/filters/trustUrl.js"></script>
+
     <!-- Services -->
     <script src="js/services/streams.js"></script>
   
