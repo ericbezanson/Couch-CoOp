@@ -3,36 +3,33 @@ app.controller('StreamController',
   function($scope, $routeParams, streams, socket){
 
     streams.success(function(data){
-        $scope.stream = data[$routeParams.streamId];
+        $scope.stream = data[$routeParams.streamId]; /// set data from stramID selected to $scope via stream using $routeParams ///
     });
 
     $scope.currentStreamsIndex = parseInt($routeParams.streamsId);
-
-    // Operations coming from server
-    socket.on('init', function(data){
-        $scope.name = data.name;
-        $scope.users = data.users;
-    });
-
+    
     socket.on('send:message', function(data){
         $scope.messages.push(data);
-    });
+    }); // Add message to local chat view
     
-    $scope.messages = [{user:'bob', text:'this is a sample message'}];
+    
+    $scope.messages = []; // Default messages
 
+    // Operations given to the client
     $scope.sendMessage = function () {
-        socket.emit('send:message', {
-            text: $scope.message
-        });
 
-        $scope.messages.push({
+        socket.emit('send:message', { 
+            text: $scope.message
+        }); // send message to server
+
+        $scope.messages.push({  
             user: $scope.name,
             text: $scope.message
-        });
+        }); // Add message to local chat view
 
-        $scope.message = '';
+        $scope.message = ''; // empty the message box
     };
     
-    // To be changed to select a room from a list of rooms.
+    // Creates a new room based on the streamId
     socket.emit('join:room', {room : $routeParams.streamId});
 }]);

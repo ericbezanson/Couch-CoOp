@@ -1,8 +1,29 @@
+<!-- Main stream selection page -->
 <div class="streamList row">
-  <div class="col-md-3" ng-repeat="stream in myStreams">
+  <div class="col-md-3 guide" ng-repeat="stream in myStreams">
     <a href="#/streams/{{$index}}">
     	<img ng-src="{{stream.image}}" alt="streamThumb" class="streamThumb">
       <h3 class="title"> {{stream.name}} </h3>
     </a>
+  </div>
+  <div class="footer">
+    <h4>The Team</h4>
+    <div class="row">
+      <div class="col-md-2">
+        <p class="dev">Eric Bezanson</p>
+        <a href="https://twitter.com/ericbezanson" target="_blank">
+          <img class="socialLogo" src="img/twitterLogo.svg" alt="twitter logo">
+        </a>
+        <a href="https://www.linkedin.com/in/eric-bezanson-5a883978/" target="_blank">
+          <img class="socialLogo" src="img/linkedIn.svg" alt="linkedin logo">
+        </a>
+      </div>
+      <div class="col-md-2">
+        <p class="dev">Tyler Rudolph</p>
+        <a href="https://ca.linkedin.com/in/tyler-rudolph-2b08ab116" target="_blank">
+          <img class="socialLogo" src="img/linkedIn.svg" alt="linkedin logo">
+        </a>
+      </div>
+    </div>
   </div>
 </div>
