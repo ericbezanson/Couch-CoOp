@@ -20,7 +20,7 @@ io.sockets.on('connection', function(client){
         client.room = data.room;
         client.join(data.room);
         client.broadcast.to(client.room)
-        .emit('send:message', {user:'SERVER', text:'A new user has joined this room'} );
+        .emit('send:message', {username:'SERVER', message:'A new user has joined this room'} );
     });
 
     // When a user sends a message send it to all users in the same room
