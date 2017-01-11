@@ -2,7 +2,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8">
-            <div class="streamHead">    
+            <div class="streamHead">
                 <h2 id="streamTitle">{{stream.name}}</h2>
                 <a href="{{stream.twitch}}">
                     <img class="socialLogo" src="img/twitchLogo.svg" alt="twitch logo">
@@ -20,13 +20,13 @@
                 allowfullscreen="true">
             </iframe>
         </div>
-        <div class="col-md-4">    
+        <div class="col-md-4">
             <h2> Chat </h2>
 
-            <div id="chat-container">    
+            <div id="chat-container">
                 <form id="chat">
                     <ul id="messages">
-                        <li ng-repeat="m in messages">{{m.text}} </li>
+                        <li ng-repeat="m in messages">{{m.username}}: {{m.message}}</li>
                     </ul>
                     <!-- These elements are to be inline -->
                     <input ng-model="message" autocomplete="off"/><input

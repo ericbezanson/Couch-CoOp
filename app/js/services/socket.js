@@ -1,5 +1,4 @@
 app.factory('socket', function ($rootScope){
-   
     // Initialize the connection to the server
     var socket = io.connect();
 

@@ -1,6 +1,6 @@
 var app = angular.module("Couchcoop", ['ngRoute']);
   app.config(function($routeProvider){
-    $routeProvider 
+    $routeProvider
     .when('/streams', {   /// when on home page set controller to HomeController ///
       controller: "HomeController",
       templateUrl: "js/views/home.html"
@@ -12,5 +12,4 @@ var app = angular.module("Couchcoop", ['ngRoute']);
     .otherwise({
       redirectTo: "/streams"  /// by default revert to home page ///
     });
-  
 });
