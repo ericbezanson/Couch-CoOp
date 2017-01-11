@@ -3,28 +3,29 @@
     MAIN
 *****************/
 
-* { 
-    margin: 0; padding: 0; box-sizing: border-box; 
+* {
+    margin: 0; padding: 0; box-sizing: border-box;
 }
-body { 
+body {
     font: 13px Helvetica, Arial;
     background-color: mediumpurple;
 }
 
-form input:nth-of-type(1) { 
+form input:nth-of-type(1) {
     border: 0; padding: 10px; width: 80%;
 }
-form input:nth-of-type(2) { 
+form input:nth-of-type(2) {
     width: 20%; background: rgb(130, 224, 255); border: none; padding: 10px; margin:0px;
 }
-#messages { 
-    list-style-type: none; margin: 0; padding: 0; 
+#messages {
+    list-style-type: none; margin: 0; padding: 0;
 }
-#messages li { 
+#messages li {
     padding: 5px 10px;
+    word-wrap: break-word;
 }
-#messages li:nth-child(odd) { 
-    background: #eee; 
+#messages li:nth-child(odd) {
+    background: #eee;
 }
 
 #logo {
