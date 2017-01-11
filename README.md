@@ -2,7 +2,7 @@
 
 ## Installation
 ####In Browser
-for quick access to the app visit this <a href="https://ericbezanson.github.io/Couch-CoOp/">Link</a>
+for quick access to the app visit this <a href="https://polar-depths-67065.herokuapp.com/#/streams">Link</a>
 ####Local
 To run the app locally you will need to use a local server, I suggest installing <a href="https://www.mamp.info/en/">MAMP</a> and while in the console navigate to the htdocs folder within MAMP and run: <pre>git clone https://github.com/ericbezanson/Couch-CoOp.git</pre>
 ######(note: MAMP is just a personal suggestion, any local server will do)
